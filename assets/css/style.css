@@ -124,6 +124,19 @@ h3 {
    
 }
 
+h3:hover {
+
+    background: #4CC2A5;
+
+  }
+
+  h3:focus {
+
+    background: #1E573E; 
+    
+  }
+
+
 .bioimg {
     clear: left;
     float: left;
