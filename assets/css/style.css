@@ -73,7 +73,9 @@ h1 {
     margin-right: 250px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 20px 40px;
-    background: #4aaaa5
+    background: #4aaaa5;
+    font-size: 32px;
+    text-align: center;
 
 }
 
@@ -158,6 +160,19 @@ h3:hover {
 
 }
 
+@keyframes example {
+    from {background-color: #1E573E;}
+    to {background-color: #4aaaa5;}
+  }
+  
+ 
+  h1 {
+    width: 300px;
+    height: 85px;
+    background-color: #4aaaa5;
+    animation-name: example;
+    animation-duration: 4s;
+  }
   
 
 
